@@ -1,14 +1,14 @@
 {
-    "boysNames":[
-        {"1": "jack"},
-        {"2": "thomas"},
-        {"3": "james"},
-        {"4": "joshua"},
-        {"5": "daniel"},
-        {"6": "matthew"},
-        {"7": "samuel"},
-        {"8": "joseph"},
-        {"9": "callum"},
-        {"10": "william"}
-    ]
+  "boysNames": [
+    { "name": "jack", "position": 1 },
+    { "name": "thomas", "position": 2 },
+    { "name": "james", "position": 3 },
+    { "name": "joshua", "position": 4 },
+    { "name": "daniel", "position": 5 },
+    { "name": "matthew", "position": 6 },
+    { "name": "samuel", "position": 7 },
+    { "name": "joseph", "position": 8 },
+    { "name": "callum", "position": 9 },
+    { "name": "william", "position": 10 }
+  ]
 }

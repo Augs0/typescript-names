@@ -1,34 +1,76 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body{
-  background-color:lavenderblush;
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-image: linear-gradient(
+    115deg,
+    #a442f4,
+    #e93ef2,
+    #46b8dd,
+    #fcfc8a,
+    #a442f4
+  );
 }
 
-body{
+body {
   position: absolute;
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
-h1{
-  font-size:2rem;
-  margin:1rem;
+h1 {
+  font-size: 2rem;
+  margin: 1rem;
 }
 
-form{
-  display:flex;
-  justify-content: space-between;
-  padding:1rem;
-  margin:1rem;
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+  gap: 10px;
 }
 
-.footer{
-  margin-top:1rem;
+.App {
+  margin: 1rem;
+  background-color: ghostwhite;
+  border: double black 6px;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 2px #333;
+}
+
+.msg {
+  text-transform: uppercase;
+}
+
+.btn {
+  background-color: ghostwhite;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.footer {
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 378px) {
+  form {
+    flex-direction: row;
+    /* justify-content: space-between; */
+  }
+  form label,
+  form input {
+    margin: 0.2rem 0.5rem;
+  }
 }
